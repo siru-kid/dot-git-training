@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bigImg{
+    width: 600px;
+    height: 600px;
+}
+
+.smallImg{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.smallImg img{
+    width: 200px;
+    height: 200px;
+}
+.smallImg li {
+    margin: 0 10px;
+  }
